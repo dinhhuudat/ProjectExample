@@ -1,0 +1,278 @@
+
+*{
+    width: 100%; 
+    list-style-type: none; 
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px; 
+} 
+.clear{
+    clear:both;
+}
+hr{
+    opacity: 0.6;
+}
+i{
+    margin-left: 10px;
+}
+
+button:hover,
+ a:hover{
+    cursor: pointer;
+}
+
+button{
+background-color: black;
+color: white;
+width: 100px;
+border: none;
+height: 40px;
+}
+
+button:hover{
+    background-color: gray;
+    color: black; 
+    }
+
+/* content center */
+.content--items--Bands
+,.content--items
+ { 
+    width: 100%;
+    padding-left: 10% !important;
+    padding-right: 10% !important; 
+}
+
+.text--left{
+    padding-left: 10px !important;
+    padding-bottom: 10px  !important;
+    padding-top: 10px !important;
+}
+
+.items-opacity{
+    opacity:0.6 !important;
+}
+
+/* nav */
+.ti-angle-down{ 
+    font-size: 10px;
+}
+.nar{
+    height: 45px;
+    background-color: black;  
+    position: sticky;
+    top: 0; 
+    z-index: 1001;
+}
+ 
+.nar__item {
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;  
+    text-align: center;
+    border: 0; 
+}
+
+.nar__item>a
+,.subnav__item a
+{
+    color: white; 
+    display: block;  
+}
+
+.nar__item:hover >a
+, .subnav__item li:hover{
+   color: black;
+   background-color: white;
+}
+
+ .subnav__item li:hover a{
+    color: black;  
+ }
+
+.search__btn{ 
+    color: white;
+    float: right; 
+    width: 45px; 
+}  
+.search__btn:hover a{ 
+    background-color: red;
+}
+
+.subnav{
+    display: none;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 5px 5px gray;;
+}
+
+.nar__item:hover .subnav{ 
+    display: block; 
+    position: absolute; 
+    width: 80px; 
+}
+
+/* Slider */
+
+.slider{
+    position: absolute;
+    top:45px;
+    height :500px; 
+    background:url(./image/slider1.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1000;
+}
+.slider__desc{
+    color:white;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+.slider__desc__content{
+    margin-bottom: 10px;
+}
+
+.content{
+ width: 100%;
+
+ position: relative;
+ top:calc(45px + 500px) ;
+ text-align: center;
+}
+
+.content--items{
+    padding: 60px 0;
+    text-justify: auto;
+}
+.content--item--content{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+.content--items--desc{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.content--items--text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.content--items--TheBand{
+    padding: 0 10px;
+    
+}
+.content--items--TheBands{
+    display: flex;  
+}
+.content--items--TheBand--name{
+    margin:10px 0;
+}
+.content--items--TheBand--img img{
+    border-radius: 20%;
+}
+ 
+.content--items--tours{
+    background-color: black;
+    color: white;   
+    
+}
+
+.content--items--tours--schedule
+,.ticket--block{  
+    width: 80%;
+    margin-left: 10%;
+} 
+
+.tours--schedule--line{
+    height: 40px;
+    line-height: 40px; 
+    display: flex;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+} 
+.tours--schedule--column1{
+    opacity: 0.6;
+    text-align: left; 
+}
+.tours--schedule--column2{
+   width: 100px;
+   border-radius: 90%;
+   background-color: red;
+   margin: 4px 10px; 
+}
+.Ticket{
+    background-color: black;
+    color: white;
+    border-radius: 180%;
+    width:40px;
+    line-height: 30px;
+}
+.ticket--block{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.ticket--items{ 
+    width: 30%;
+    background-color: white;
+    color: black;
+    text-align: left;
+
+}
+
+.ticket--nation{
+    font-weight: bold;
+}
+
+.contact--form{
+display: flex;
+margin-top: 40px; 
+text-align: left;
+} 
+
+.contact--column1--row{
+    margin-bottom: 10px;
+}
+
+.contact--btn{
+   float: right;
+} 
+.content--items-map{
+    height: 500px;
+    background-image : url('../PracticeTheBand/image/map.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+.footer--block{
+    padding-top: 90px;
+    height: 300px;
+    opacity: 0.6;
+}
+
+.footer--icons>i { 
+     
+    font-size: 24px; 
+}
+
+.footer--icons>i:hover{ 
+    opacity: 1;
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+    transition-delay:0.1s;
+}
+
+.footer--desc{
+   margin-top:50px ;
+   font-size: 24px;
+}
